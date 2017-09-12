@@ -124,6 +124,21 @@ a:active {
     color: white;
     font-weight: bold;
 }
+.about {
+    text-align: left;
+    color: white;
+    background-color: darkseagreen;
+    list-style-type: disc;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.about ul {
+    padding-left: 50px;
+    padding-right: 50px;
+}
 #scc-img {
     /* no choice, the image is kept small so the navigation bar is still fit and looks nicely done */
     height: 20px;
