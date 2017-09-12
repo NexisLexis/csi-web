@@ -1,0 +1,160 @@
+/* designed by Ivan, Gab and Luis */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+    transition-duration: 0.3s;
+}
+#error404 {
+    color: white;
+    text-align: center;
+    background-color: darkseagreen;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 98px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #b3ffb3;
+}
+a:hover {
+    color: #00e600;
+}
+a:active {
+    color: darkgreen;
+}
+#logo {
+    padding-left: 20px;
+    text-align: left;
+    background-color: white;
+}
+.button {
+    background-color: white; 
+    color: green; 
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.button:hover {
+    background-color: green;
+    color: white;
+}
+/* navigation bar */
+.topnav {
+    background-color: forestgreen;
+    overflow: auto;
+    padding-left: 100px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 23px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.topnav a:hover {
+    background-color: white;
+    color: darkgreen;
+}
+.topnav .icon {
+    display: none;
+}
+/* end of navigation bar */
+/* content and container */
+.content {
+    margin: auto;
+    list-style-type: none;
+    margin-bottom: 30px;
+    max-width: 1000px;
+    width: 75%;
+    height: auto;
+    background: transparent;
+}
+#container-header {
+    color: white;
+    background-color: darkgreen;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: auto;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#container-header2 {
+    color: white;
+    background-color: darkseagreen;
+    font-size: 40px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#container-header2 h6 {
+    text-transform: uppercase;
+}
+#container-post {
+    font-size: 20px;
+    color: black;
+    background-color: floralwhite;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+}
+#container-header2 p {
+    padding: 10px;
+    font-size: 20px;
+}
+.message-bottom {
+    padding: 30px;
+    text-align: center;
+    font-size: 28px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+#scc-img {
+    /* no choice, the image is kept small so the navigation bar is still fit and looks nicely done */
+    height: 20px;
+    width: 18px;
+    padding-right: 10px;
+}
+#scc {
+    background-color: mediumspringgreen;
+}
+#scc:hover {
+    background-color:white;
+    color:mediumspringgreen;
+}
+#donate {
+    background-color: mediumseagreen;
+}
+#donate:hover {
+    background-color: white;
+    color: mediumseagreen;
+}
+#donate-img {
+    padding-right: 20px;
+    width: 22px;
+    height: 20px;
+}
+footer {
+    height: auto;
+    margin: auto;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color: darkgreen;
+    font-size: 28px;
+}
